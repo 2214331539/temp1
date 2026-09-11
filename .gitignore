@@ -1,0 +1,7 @@
+
+# learn2ai local context and export scratch
+.learn2ai/context.json
+.learn2ai/redactions.local.json
+.learn2ai/bindings/
+.learn2ai/requests/
+.learn2ai/submissions/**/.pending-*
