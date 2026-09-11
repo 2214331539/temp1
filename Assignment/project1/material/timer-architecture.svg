@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#f7f5ef"/>
+  <text x="50" y="62" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#17212b">Next.js 全栈计时器架构</text>
+  <text x="50" y="95" font-family="Arial,sans-serif" font-size="16" fill="#53616d">多模态验证图：观察数据如何从浏览器流向服务端和存储</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="55" y="170" width="260" height="190" rx="12" fill="#dcecf5" stroke="#32708e" stroke-width="3"/>
+    <text x="85" y="215" font-size="24" font-weight="700" fill="#173b4d">浏览器 UI</text>
+    <text x="85" y="255" font-size="17" fill="#234b5d">任务表单</text><text x="85" y="285" font-size="17" fill="#234b5d">开始 / 暂停 / 重置</text><text x="85" y="315" font-size="17" fill="#234b5d">本地状态与倒计时</text>
+    <rect x="420" y="170" width="260" height="190" rx="12" fill="#f5e3c1" stroke="#a86c27" stroke-width="3"/>
+    <text x="450" y="215" font-size="24" font-weight="700" fill="#59370f">Next.js 服务端</text>
+    <text x="450" y="255" font-size="17" fill="#694517">Route Handler</text><text x="450" y="285" font-size="17" fill="#694517">输入校验与状态转换</text><text x="450" y="315" font-size="17" fill="#694517">服务端时间戳</text>
+    <rect x="785" y="170" width="260" height="190" rx="12" fill="#e4e9d8" stroke="#5e7435" stroke-width="3"/>
+    <text x="815" y="215" font-size="24" font-weight="700" fill="#33421d">持久化层</text>
+    <text x="815" y="255" font-size="17" fill="#405429">任务记录</text><text x="815" y="285" font-size="17" fill="#405429">事件时间线</text><text x="815" y="315" font-size="17" fill="#405429">历史统计</text>
+  </g>
+  <g stroke="#263743" stroke-width="4" fill="none"><path d="M315 265h105"/><path d="M680 265h105"/></g>
+  <g fill="#263743"><path d="M405 255l18 10-18 10z"/><path d="M775 255l18 10-18 10z"/></g>
+  <text x="55" y="455" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#17212b">关键验证点</text>
+  <text x="55" y="492" font-family="Arial,sans-serif" font-size="17" fill="#344650">客户端显示时间 ≠ 服务端确认时间；暂停和恢复必须产生可追踪事件。</text>
+  <text x="55" y="525" font-family="Arial,sans-serif" font-size="17" fill="#344650">服务端拒绝负数时长和非法状态转换；历史记录必须可按任务查询。</text>
+  <text x="55" y="570" font-family="Arial,sans-serif" font-size="15" fill="#6b7780">learn2ai multimodal material / project1</text>
+</svg>
